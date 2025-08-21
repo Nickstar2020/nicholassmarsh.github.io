@@ -570,7 +570,28 @@ input, select, textarea {
 			margin: 1.5em 0 0 0;
 		}
 
-			#header nav li {
+			#header nav .main-nav {
+				margin-bottom: 1.5em;
+			}
+
+			#header nav .main-nav li {
+				display: inline-block;
+				margin: 0 1em;
+			}
+
+			#header nav .main-nav a {
+				color: #fff;
+				font-size: 1.1em;
+				text-decoration: none;
+				border-bottom: 2px solid transparent;
+				transition: border-color 0.2s ease-in-out;
+			}
+
+			#header nav .main-nav a:hover {
+				border-bottom-color: #fff;
+			}
+
+			#header nav .social-nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
 				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
 				-ms-animation: nav-icons 0.5s ease-in-out forwards;
